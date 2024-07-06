@@ -75,7 +75,7 @@ def delete_data(table, id):
         cursor.execute(query, (id,))
         conn.commit()  # Commit transaction
 
-        print(f"Data dengan ID {id} berhasil dihapus!")
+        print(f"Data dengan ID {id} berhasil di update!")
 
     except Error as e:
         print(f"Error: {e}")
