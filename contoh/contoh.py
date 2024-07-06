@@ -187,7 +187,7 @@ if __name__ == "__main__":
     # Contoh penggunaan
     root = tk.Tk()
     root.geometry("800x600")
-    root.title("Aplikasi Manajemen Dosen")
+    root.title("Aplikasi Manajemen Dosen dan pegawai")
 
     main_frame = ttk.Frame(root)
     main_frame.pack(fill="both", expand=True)
